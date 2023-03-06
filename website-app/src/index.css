@@ -16,3 +16,12 @@ code {
     monospace;
 }
 
+.carousel {
+  display: flex;
+  gap: 45px;
+  overflow-x: scroll;
+  padding-left: 100px;
+  padding-right: 100px;
+  max-width: 90vw;
+  margin-top: 100px;
+}
