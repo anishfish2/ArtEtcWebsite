@@ -9,16 +9,17 @@ import './App.css';
 function App() {
   return (
     <div className ="grid grid-cols-6 gap-4">
-      <div class="col-span-1 bg-[url('C:\Users\anish\Projects\ArtEtcWebsite\website-app\images\sidebars.jpg')]">
+      <div className="col-span-1 bg-[url('C:\Users\anish\Projects\ArtEtcWebsite\website-app\images\sidebar1.jpg')]">
       </div>
       <div className = 'col-span-4'>
         <Navbar></Navbar>
         <Hero></Hero>
         <Join></Join>
-        {/* <ImagePane></ImagePane> */}
+        <ImagePane></ImagePane>
       </div>
-      <div class="col-span-1 bg-[url('C:\Users\anish\Projects\ArtEtcWebsite\website-app\images\sidebars.jpg')]">
+      <div className="col-span-1 bg-[url('C:\Users\anish\Projects\ArtEtcWebsite\website-app\images\sidebar1.jpg')]">
       </div>
+      
     </div>
   );
 }
