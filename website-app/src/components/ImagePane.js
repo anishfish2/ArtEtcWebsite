@@ -1,42 +1,61 @@
 import React from 'react'
-// import Swiper from 'swiper';
+
+import picA from './ImagePanePics/picA.JPG'
+import picB from './ImagePanePics/picB.JPG'
+import picC from './ImagePanePics/picC.PNG'
+import picD from './ImagePanePics/picD.PNG'
+import picE from './ImagePanePics/picE.jpeg'
+import picF from './ImagePanePics/picF.JPG'
+import picG from './ImagePanePics/picG.JPG'
+import picH from './ImagePanePics/picH.JPG'
+import picI from './ImagePanePics/picI.JPG'
+import picJ from './ImagePanePics/picJ.jpeg'
+
+
 export default function ImagePane() {
     
 
-    // const swiper = new Swiper('.swiper-container', {
-    //     slidesPerView: 'auto',
-    //     centeredSlides: true,
-    //     loop: true,
-    //     spaceBetween: 30,
-    //     pagination: {
-    //         el: '.swiper-pagination',
-    //         clickable: true,
-    //     },
-    // });
+
     return (
-        // <div class="grid grid-cols-6 gap-4">
-        //     <div class="col-span-1 bg-[#B67B58]">
-        //     </div>
-            <div width = "1000" className=' bg-[#703C3C] h-96 text-center flex bg-contain relative content-center'>
-                {/* <div class = "carousel"> */}
-                    <img className = "slidingImage bg-[url('C:\Users\anish\Projects\ArtEtcWebsite\website-app\images\anishpfp.webp')]" alt=""></img>
-                    <img className = "slidingImage bg-[url('C:\Users\anish\Projects\ArtEtcWebsite\website-app\images\anishpfp.webp')]" alt="" ></img>
-                    <img className = "slidingImage bg-[url('C:\Users\anish\Projects\ArtEtcWebsite\website-app\images\anishpfp.webp')]" alt=""></img>
-                    <img className = "slidingImage bg-[url('C:\Users\anish\Projects\ArtEtcWebsite\website-app\images\anishpfp.webp')]" alt=""></img>
-                    {/* HELSINFLSIDFNSLDIFNLSDINF */}
-                {/* </div> */}
-                {/* <div className="swiper-container">
-                <div className="swiper-wrapper"> */}
-                    <div className="swiper-slide h-96 w-80"><img src="ArtEtcWebsite\website-app\images\sidebars.jpg" alt=""></img>OOGAFUCKINGBOOGA</div>
-                    <div className="swiper-slide"><img src="ArtEtcWebsite\website-app\images\sidebars.jpg" alt=""></img></div>
-                    <div className="swiper-slide"><img src="ArtEtcWebsite\website-app\images\sidebars.jpg" alt=""></img></div>
-                {/* </div>
-                </div> */}
-            
+ 
+            <div width = "1000" className=' bg-[#703C3C] border-[#895235] min-h-36 text-center flex flex-col bg-contain relative content-center pb-20'>
+                    {/* <div className = "h-20 bg-white"></div>
+                    <div className = "bg-[#895235]"> */}
+                        <div className= "flex justify-center pt-12 h-8 font-custom text-7xl text-white">
+                            Gallery
+                        </div>
+                        <h2 id = "Gallery"> </h2>
+                        
+                        <div className = "carousel bg-[#FFF0D2] w-full h-128 relative border-4 border-[#895235] font-custom text-center flex items-center justify-center">
+                            
+                            <img class = "slidingImage object-cover" src = {picA} alt=""></img>
+                            <img class = "slidingImage object-cover" src = {picB} alt=""></img>
+                            <img class = "slidingImage object-cover" src = {picC} alt=""></img>
+                            <img class = "slidingImage object-cover" src = {picA} alt=""></img>
+                            <img class = "slidingImage object-cover" src = {picB} alt=""></img>
+                            <img class = "slidingImage object-cover" src = {picC} alt=""></img>
+                            <img class = "slidingImage object-cover" src = {picA} alt=""></img>
+                            
+                            
+                            
+                            
+                            
+                            <img class = "slidingImage object-cover" src = {picA} alt=""></img>
+                            <img class = "slidingImage object-cover" src = {picB} alt=""></img>
+                            <img class = "slidingImage object-cover" src = {picC} alt=""></img>
+                            <img class = "slidingImage object-cover" src = {picD} alt=""></img>
+                            <img class = "slidingImage object-cover" src = {picE} alt=""></img>
+                            <img class = "slidingImage object-cover" src = {picF} alt=""></img>
+                            <img class = "slidingImage object-cover" src = {picG} alt=""></img>
+                            <img class = "slidingImage object-cover" src = {picH} alt=""></img>
+                            <img class = "slidingImage object-cover" src = {picI} alt=""></img>
+                            <img class = "slidingImage object-cover" src = {picJ} alt=""></img>
+
+                            
+                        </div>
+                    {/* </div> */}
                     
             </div>
-        //     <div class="col-span-1 bg-[#B67B58]">
-        //     </div>
-        // </div>
+
     )
 }
