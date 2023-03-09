@@ -9,7 +9,7 @@ function App() {
   return (
     <div className ="grid grid-cols-6 gap-4">
       {/* <div className="col-span-1 bg-[url('images/sidebar1.jpg')] bg-[#B67B58]"> */}
-      <div className="col-span-1 bg-[#AA4517]">
+      <div className="col-span-1 bg-[#F29D4C]">
         </div>
           <div className = 'col-span-4'>
             <Navbar></Navbar>
@@ -25,7 +25,7 @@ function App() {
             <Contacts></Contacts>
           </div>
         {/* <div className="col-span-1 bg-[url('images/sidebar1.jpg')]"> */}
-        <div className="col-span-1 bg-[#AA4517]">
+        <div className="col-span-1 bg-[#F29D4C]">
 
       </div>
     </div>
