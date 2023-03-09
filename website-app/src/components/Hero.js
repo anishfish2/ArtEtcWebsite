@@ -9,9 +9,11 @@ export default function Hero() {
                     <div className='col-span-3 row-span-1'>
                     </div>
                     <div className = 'col-span-1 row-start-3 col-start-2'>
-                        <div className='bg-[#FFF0D2] w-40 h-12 relative border-4 border-[#895235] text-xl font-custom text-center flex items-center justify-center'>
-                            Join Now!
-                        </div>
+                        <a target="_blank" rel="noopener noreferrer" href = "https://docs.google.com/forms/d/e/1FAIpQLScXlmO6px40I_FkKFUVNantVFj1iYwhNeh5veKmYl5zJ0NLYg/viewform?usp=sf_link">
+                            <button className='bg-[#FFF0D2] w-40 h-12 relative border-4 border-[#895235] text-xl font-custom text-center flex items-center justify-center'>
+                                Join Now!
+                            </button>
+                        </a>
                     </div>
 
                     <div className='col-span-1 row-span-4 row-start-2 col-start-4' >
