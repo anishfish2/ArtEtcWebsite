@@ -2,15 +2,19 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-      <div className='flex justify-end gap-4 text-xl'>
-        <h2 className='px-4 py-2 text-[#DF6C36] font-custom text-7xl' >Art Etc</h2>
-        <h2 className = 'w-28'> </h2>
+      <div className='w-full flex justify-between text-xl'>
+        <div className = 'w-full flex justify-start'>
+          <h2 className='px-4 py-2 text-[#DF6C36] font-custom text-7xl' style = {{"font-size":"5vw"}}>Art Etc</h2>
+        </div>
+        
 
-
-        <a className='px-4 py-2 text-[#F29D4C] font-custom' href = "#Calendar">Calendar</a>
-        <a className='px-4 py-2 text-[#DF6C36] font-custom' href = "#Sketchbook">Sketchbook</a>
-        <a className='px-4 py-2 text-[#AA4517] font-custom' href = "#Contacts">Contact</a>
-        <a className='px-4 py-2 text-[#703C3C] font-custom' href = "#Gallery">Gallery</a>
+        <div className = 'flex justify-end gap-8 h-full w-3/4 m-auto'>
+          <a className= 'text-[#F29D4C] font-custom m-auto' href = "#Calendar" style = {{"font-size":"2vw"}}>Calendar</a>
+          <a className='text-[#DF6C36] font-custom' href = "#Sketchbook" style = {{"font-size":"2vw"}}>Sketchbook</a>
+          <a className='text-[#AA4517] font-custom' href = "#Contacts" style = {{"font-size":"2vw"}}>Contact</a>
+          <a className='text-[#703C3C] font-custom' href = "#Gallery" style = {{"font-size":"2vw"}}>Gallery</a>
+        </div>
+        
       </div>
 
   )
