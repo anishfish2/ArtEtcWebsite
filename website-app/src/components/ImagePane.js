@@ -21,7 +21,7 @@ export default function ImagePane() {
             <div width = "1000" className=' bg-[#703C3C] border-[#895235] min-h-36 text-center flex flex-col bg-contain relative content-center pb-20'>
                     {/* <div className = "h-20 bg-white"></div>
                     <div className = "bg-[#895235]"> */}
-                        <div className= "flex justify-center pt-12 h-8 font-custom text-7xl text-white">
+                        <div className= "flex justify-center pt-4 pb-12 h-8 font-custom text-white" style = {{"font-size":"6vw"}}>
                             Gallery
                         </div>
                         <h2 id = "Gallery"> </h2>
