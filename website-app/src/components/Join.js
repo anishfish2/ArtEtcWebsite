@@ -22,7 +22,8 @@ export default function Join() {
                     <div className='bg-[#FFF0D2] w-96 h-40 relative border-4 border-[#895235] font-custom text-center flex items-center justify-center'>
                         <div className = 'mx-8'>
                         
-                            Traveling Sketchbook info pogchampion
+                            Traveling Sketchbook is a fun and unique tradition in which members are given a week to add two pages of sketches, drawings, scrapbooking, or any creative outlet
+                            to a continuously growing notebook!
                         </div>
                     </div>
                 </div>
