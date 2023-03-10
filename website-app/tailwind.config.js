@@ -15,7 +15,11 @@ module.exports = {
     },
     backgroundImage: {
       'realBackground': "url('bg.png')" 
-    }
+    },
+    aspectRatio: {
+      'custom': '4 / 3',
+    },
+    
   },
   plugins: [],
 }
