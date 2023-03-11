@@ -14,7 +14,8 @@ module.exports = {
       'custom': 'Jeju Hallasan',
     },
     backgroundImage: {
-      'realBackground': "url('bg.png')" 
+      'realBackground': "url('bg.png')", 
+      'logo': "url('./components/ImagePanePics/artetccoloredredbrown.png')", 
     },
     aspectRatio: {
       'custom': '4 / 3',
