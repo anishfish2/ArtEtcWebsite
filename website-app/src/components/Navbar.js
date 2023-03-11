@@ -1,10 +1,14 @@
 import React from 'react'
 
+import useTitle from './title.js';
+
+
 export default function Navbar() {
+  useTitle("art-etc")
   return (
       <div className='w-full flex justify-between text-xl'>
         <div className = 'w-full flex justify-start'>
-          <h2 className='px-4 py-2 text-[#DF6C36] font-custom text-7xl' style = {{"font-size":"5vw"}}>Art Etc</h2>
+          
         </div>
         
 
